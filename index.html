@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyPortfolio</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body class="main-content">
@@ -40,7 +40,7 @@
        <div class="about-container">
         <div class="left-about">
             <h4>Information About Me</h4>
-            <p>My name is Prabin Tiwari. I'm from Jhapa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium beatae veniam quo rerum numquam corrupti esse possimus doloribus explicabo quos.</p><br><br>
+            <p>My name is Prabin Tiwari. I'm from Jhapa. I specialize in web design, focusing on creating user-friendly interfaces and visually appealing layouts. My skills include HTML, CSS, JavaScript, and responsive design, ensuring websites look great on all devices.</p><br><br>
             <a href="" download class="main-btn">
                 <span>Download CV</span>
                 <i class="fa-solid fa-download"></i>
@@ -106,7 +106,7 @@
             <div class="progress-bar">
                 <p class="prog-title">JS</p>
                 <div class="progress-container">
-                    <p class="prog-text">30%</p>
+                    <p class="prog-text">50%</p>
                     <div class="progress">
                         <span class="js"></span>
                     </div>
@@ -314,7 +314,7 @@
                         
                         <span>Mobile Number</span>
                       </div>
-                      <p>:9815027619</p>
+                      <p>:+977 9815027619</p>
                     
                    </div>
                    <div class="contact-item">
@@ -345,14 +345,14 @@
                 </div>
             </div>
             <div class="contact-right">
-                <form action="" class="contact-form">
+                <form action="mailto:prabintiwari964@gmail.com" method="get"  class="contact-form">
                     <div class="input-control">
-                        <input type="text" placeholder="Name" required> <br>
-                        <input type="email" placeholder="Email" required> <br>
-                        <input type="text" placeholder="Subject" required> <br>
+                        <input type="text" name="name" placeholder="Name" class="name" required> <br>
+                        <input type="email" name="email" placeholder="Email" required> <br>
+                        <input type="text" name="subject" placeholder="Subject" required> <br>
                         <textarea name="" id="" cols="30" rows="10" placeholder="Message" ></textarea> <br>
 
-                        <button type="submit" class="main-btn">
+                        <button type="submit" class="main-btn" id="form-btn">
                             <span>Send Message</span>
                             <i class="fa-solid fa-paper-plane"></i>
                     </div>
@@ -381,6 +381,10 @@
     </div>
     <div class="theme-btn">
         <i class="fa-solid fa-moon"></i>
+        
+    </div>
+    <div class="bright-theme">
+        <i class="fa-solid fa-sun"></i>
     </div>
     <script src="./app.js"></script>
 </body>
